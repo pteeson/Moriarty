@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	013428CE130479C3002E7378 /* Moriarty */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Moriarty;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	013428EB130479D0002E7378 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	013428EC130479D0002E7378 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	013428F0130483F2002E7378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	016ABA9E1305967D00AA444A /* MoriarityController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3555.67, 1407}}";
+			sepNavSelRange = "{2832, 0}";
+			sepNavVisRange = "{2147, 1353}";
+			sepNavWindowFrame = "{{15, 90}, {1260, 1483}}";
+		};
+	};
+	016ABA9F1305967D00AA444A /* MoriarityController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3642.37, 3843}}";
+			sepNavSelRange = "{5065, 0}";
+			sepNavVisRange = "{5866, 1265}";
+			sepNavWindowFrame = "{{787, 95}, {1260, 1483}}";
+		};
+	};
+	016ABAA01305967D00AA444A /* TaskWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1584, 1680}}";
+			sepNavSelRange = "{364, 0}";
+			sepNavVisRange = "{1246, 1909}";
+			sepNavWindowFrame = "{{15, 90}, {1260, 1483}}";
+		};
+	};
+	016ABAA11305967D00AA444A /* TaskWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3826.59, 3339}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1907, 1629}";
+		};
+	};
+	016DA57C13070E200084FFCD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 01ADD9E413059114001043F5 /* Moriarty-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Data/Development/MyProjects/Moriarty/Moriarty-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	01AB61AC130D91A30041DA85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 016ABAA11305967D00AA444A /* TaskWrapper.m */;
+		name = "TaskWrapper.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1629;
+		vrLoc = 1907;
+	};
+	01AB61F1130DB7FB0041DA85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 016ABA9E1305967D00AA444A /* MoriarityController.h */;
+		name = "MoriarityController.h: 48";
+		rLen = 0;
+		rLoc = 2832;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 2147;
+	};
+	01AB61F2130DB7FB0041DA85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 016ABA9F1305967D00AA444A /* MoriarityController.m */;
+		name = "MoriarityController.m: 105";
+		rLen = 0;
+		rLoc = 5065;
+		rType = 0;
+		vrLen = 1843;
+		vrLoc = 4690;
+	};
+	01AB61F3130DB7FB0041DA85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 016ABA9F1305967D00AA444A /* MoriarityController.m */;
+		name = "MoriarityController.m: 105";
+		rLen = 0;
+		rLoc = 5065;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 5866;
+	};
+	01ADD9E413059114001043F5 /* Moriarty-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 90}, {1260, 1483}}";
+		};
+	};
+	01DF3DE9130B2F3600670394 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 016ABAA01305967D00AA444A /* TaskWrapper.h */;
+		name = "TaskWrapper.h: 8";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 1909;
+		vrLoc = 1246;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 013428CE130479C3002E7378 /* Moriarty */;
+		activeTarget = 8D1107260486CEB800E47090 /* Moriarty */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Moriarty */,
+		);
+		codeSenseManager = 013428EC130479D0002E7378 /* Code sense */;
+		executables = (
+			013428CE130479C3002E7378 /* Moriarty */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1406,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					157,
+					1239,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1366,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319656804;
+			PBXWorkspaceStateSaveDate = 319656804;
+		};
+		perUserProjectItems = {
+			013428F0130483F2002E7378 /* PBXTextBookmark */ = 013428F0130483F2002E7378 /* PBXTextBookmark */;
+			016DA57C13070E200084FFCD /* PlistBookmark */ = 016DA57C13070E200084FFCD /* PlistBookmark */;
+			01AB61AC130D91A30041DA85 /* PBXTextBookmark */ = 01AB61AC130D91A30041DA85 /* PBXTextBookmark */;
+			01AB61F1130DB7FB0041DA85 /* PBXTextBookmark */ = 01AB61F1130DB7FB0041DA85 /* PBXTextBookmark */;
+			01AB61F2130DB7FB0041DA85 /* PBXTextBookmark */ = 01AB61F2130DB7FB0041DA85 /* PBXTextBookmark */;
+			01AB61F3130DB7FB0041DA85 /* PBXTextBookmark */ = 01AB61F3130DB7FB0041DA85 /* PBXTextBookmark */;
+			01DF3DE9130B2F3600670394 /* PBXTextBookmark */ = 01DF3DE9130B2F3600670394 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 013428EB130479D0002E7378 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 620}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Moriarty */ = {
+		activeExec = 0;
+		executables = (
+			013428CE130479C3002E7378 /* Moriarty */,
+		);
+	};
+}
