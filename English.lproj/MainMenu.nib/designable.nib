@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1090</int>
-		<string key="IBDocument.SystemVersion">12F45</string>
-		<string key="IBDocument.InterfaceBuilderVersion">5056</string>
-		<string key="IBDocument.AppKitVersion">1187.40</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
+		<string key="IBDocument.SystemVersion">14F27</string>
+		<string key="IBDocument.InterfaceBuilderVersion">7706</string>
+		<string key="IBDocument.AppKitVersion">1348.17</string>
+		<string key="IBDocument.HIToolboxVersion">758.70</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">5056</string>
+			<string key="NS.object.0">7706</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -70,7 +70,7 @@
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">Find:</string>
 								<object class="NSFont" key="NSSupport" id="705238587">
-									<string key="NSName">LucidaGrande</string>
+									<bool key="IBIsSystemFont">YES</bool>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
@@ -84,7 +84,7 @@
 										<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 									</object>
 								</object>
-								<object class="NSColor" key="NSTextColor">
+								<object class="NSColor" key="NSTextColor" id="212241696">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
 									<string key="NSColorName">controlTextColor</string>
@@ -95,6 +95,7 @@
 								</object>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">1</int>
 						</object>
 						<object class="NSTextField" id="247374199">
 							<reference key="NSNextResponder" ref="420010157"/>
@@ -127,6 +128,7 @@
 								</object>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">1</int>
 						</object>
 						<object class="NSButton" id="555123590">
 							<reference key="NSNextResponder" ref="420010157"/>
@@ -165,7 +167,7 @@
 									<array class="NSMutableArray" key="NSSubviews">
 										<object class="NSTextView" id="658561356">
 											<reference key="NSNextResponder" ref="824177585"/>
-											<int key="NSvFlags">274</int>
+											<int key="NSvFlags">2322</int>
 											<string key="NSFrameSize">{616, 359}</string>
 											<reference key="NSSuperview" ref="824177585"/>
 											<reference key="NSNextKeyView" ref="344059895"/>
@@ -206,7 +208,7 @@
 														<reference key="NSColor" ref="197945760"/>
 													</object>
 												</dictionary>
-												<reference key="NSInsertionColor" ref="197945760"/>
+												<reference key="NSInsertionColor" ref="212241696"/>
 												<dictionary key="NSLinkAttributes">
 													<object class="NSColor" key="NSColor" id="265514195">
 														<int key="NSColorSpace">1</int>
@@ -224,7 +226,7 @@
 												<nil key="NSTextFinder"/>
 												<int key="NSPreferredTextFinderStyle">0</int>
 											</object>
-											<int key="NSTVFlags">6</int>
+											<int key="NSTVFlags">70</int>
 											<string key="NSMaxSize">{627, 10000000}</string>
 											<nil key="NSDelegate"/>
 										</object>
@@ -239,6 +241,7 @@
 										<int key="NSCursorType">0</int>
 									</object>
 									<int key="NScvFlags">4</int>
+									<bool key="NSAutomaticallyAdjustsContentInsets">YES</bool>
 								</object>
 								<object class="NSScroller" id="344059895">
 									<reference key="NSNextResponder" ref="997566331"/>
@@ -247,6 +250,8 @@
 									<string key="NSFrame">{{617, 1}, {15, 359}}</string>
 									<reference key="NSSuperview" ref="997566331"/>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="997566331"/>
 									<reference key="NSTarget" ref="997566331"/>
 									<string key="NSAction">_doScroller:</string>
 									<double key="NSCurValue">1</double>
@@ -259,6 +264,8 @@
 									<reference key="NSSuperview" ref="997566331"/>
 									<reference key="NSNextKeyView" ref="824177585"/>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="997566331"/>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="997566331"/>
 									<string key="NSAction">_doScroller:</string>
@@ -281,7 +288,7 @@
 					<string key="NSFrameSize">{673, 443}</string>
 					<reference key="NSNextKeyView" ref="917959350"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 777}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -303,6 +310,7 @@
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="269643307"/>
 						<object class="NSMenu" key="NSSubmenu" id="269643307">
 							<string key="NSTitle">Moriarity</string>
 							<array class="NSMutableArray" key="NSMenuItems">
@@ -343,6 +351,7 @@
 									<reference key="NSOnImage" ref="792882160"/>
 									<reference key="NSMixedImage" ref="822307788"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="493307190"/>
 									<object class="NSMenu" key="NSSubmenu" id="493307190">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Services</characters>
@@ -422,6 +431,7 @@
 						<reference key="NSOnImage" ref="792882160"/>
 						<reference key="NSMixedImage" ref="822307788"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="109713418"/>
 						<object class="NSMenu" key="NSSubmenu" id="109713418">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">File</characters>
@@ -454,6 +464,7 @@
 									<reference key="NSOnImage" ref="792882160"/>
 									<reference key="NSMixedImage" ref="822307788"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="801755162"/>
 									<object class="NSMenu" key="NSSubmenu" id="801755162">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Open Recent</characters>
@@ -560,6 +571,7 @@
 						<reference key="NSOnImage" ref="792882160"/>
 						<reference key="NSMixedImage" ref="822307788"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="766669162"/>
 						<object class="NSMenu" key="NSSubmenu" id="766669162">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">Edit</characters>
@@ -659,6 +671,7 @@
 									<reference key="NSOnImage" ref="792882160"/>
 									<reference key="NSMixedImage" ref="822307788"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="1053372070"/>
 									<object class="NSMenu" key="NSSubmenu" id="1053372070">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Find</characters>
@@ -721,6 +734,7 @@
 									<reference key="NSOnImage" ref="792882160"/>
 									<reference key="NSMixedImage" ref="822307788"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="863589823"/>
 									<object class="NSMenu" key="NSSubmenu" id="863589823">
 										<string key="NSTitle">Spelling</string>
 										<array class="NSMutableArray" key="NSMenuItems">
@@ -766,6 +780,7 @@
 						<reference key="NSOnImage" ref="792882160"/>
 						<reference key="NSMixedImage" ref="822307788"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="625911305"/>
 						<object class="NSMenu" key="NSSubmenu" id="625911305">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">Window</characters>
@@ -813,6 +828,7 @@
 						<reference key="NSOnImage" ref="792882160"/>
 						<reference key="NSMixedImage" ref="822307788"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="594212670"/>
 						<object class="NSMenu" key="NSSubmenu" id="594212670">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">Help</characters>
@@ -848,7 +864,7 @@
 			<object class="NSWindowTemplate" id="580703486">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{206, 106}, {464, 566}}</string>
+				<string key="NSWindowRect">{{206, 106}, {463, 566}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Moriarity Release Notes</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -870,9 +886,10 @@
 									<array class="NSMutableArray" key="NSSubviews">
 										<object class="NSTextView" id="18142994">
 											<reference key="NSNextResponder" ref="196031847"/>
-											<int key="NSvFlags">274</int>
+											<int key="NSvFlags">2322</int>
 											<string key="NSFrameSize">{447, 570}</string>
 											<reference key="NSSuperview" ref="196031847"/>
+											<reference key="NSNextKeyView" ref="608193347"/>
 											<object class="NSTextContainer" key="NSTextContainer" id="706804422">
 												<object class="NSLayoutManager" key="NSLayoutManager">
 													<object class="NSTextStorage" key="NSTextStorage">
@@ -900,7 +917,7 @@
 													<reference key="NSBackgroundColor" ref="896505048"/>
 													<reference key="NSColor" ref="53070756"/>
 												</dictionary>
-												<reference key="NSInsertionColor" ref="197945760"/>
+												<reference key="NSInsertionColor" ref="212241696"/>
 												<dictionary key="NSLinkAttributes">
 													<reference key="NSColor" ref="265514195"/>
 													<reference key="NSCursor" ref="740722573"/>
@@ -912,7 +929,7 @@
 												<nil key="NSTextFinder"/>
 												<int key="NSPreferredTextFinderStyle">0</int>
 											</object>
-											<int key="NSTVFlags">6</int>
+											<int key="NSTVFlags">70</int>
 											<string key="NSMaxSize">{447, 10000000}</string>
 											<nil key="NSDelegate"/>
 										</object>
@@ -942,6 +959,7 @@
 										</object>
 									</object>
 									<int key="NScvFlags">4</int>
+									<bool key="NSAutomaticallyAdjustsContentInsets">YES</bool>
 								</object>
 								<object class="NSScroller" id="608193347">
 									<reference key="NSNextResponder" ref="170998012"/>
@@ -950,6 +968,8 @@
 									<string key="NSFrame">{{448, 1}, {15, 570}}</string>
 									<reference key="NSSuperview" ref="170998012"/>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="170998012"/>
 									<reference key="NSTarget" ref="170998012"/>
 									<string key="NSAction">_doScroller:</string>
 									<double key="NSCurValue">1</double>
@@ -960,7 +980,10 @@
 									<array class="NSMutableArray" key="NSSubviews"/>
 									<string key="NSFrame">{{-100, -100}, {87, 18}}</string>
 									<reference key="NSSuperview" ref="170998012"/>
+									<reference key="NSNextKeyView" ref="196031847"/>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="170998012"/>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="170998012"/>
 									<string key="NSAction">_doScroller:</string>
@@ -968,9 +991,9 @@
 									<double key="NSPercent">0.94565218687057495</double>
 								</object>
 							</array>
-							<string key="NSFrame">{{0, -1}, {464, 572}}</string>
+							<string key="NSFrame">{{-1, -1}, {464, 572}}</string>
 							<reference key="NSSuperview" ref="71046358"/>
-							<reference key="NSNextKeyView" ref="196031847"/>
+							<reference key="NSNextKeyView" ref="970751783"/>
 							<int key="NSsFlags">2066</int>
 							<reference key="NSVScroller" ref="608193347"/>
 							<reference key="NSHScroller" ref="970751783"/>
@@ -980,15 +1003,16 @@
 							<double key="NSMagnification">1</double>
 						</object>
 					</array>
-					<string key="NSFrameSize">{464, 566}</string>
+					<string key="NSFrameSize">{463, 566}</string>
+					<reference key="NSNextKeyView" ref="170998012"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 777}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array class="NSMutableArray" key="connectionRecords">
+			<array key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">terminate:</string>
@@ -1863,7 +1887,9 @@
 				<string key="21.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="21.NSWindowTemplate.visibleAtLaunch"/>
 				<string key="210.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="212.IBPersistedLastKnownCanvasPosition">{225.5, 359}</string>
 				<string key="212.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="213.IBNSViewMetadataGestureRecognizers" ref="0"/>
 				<string key="213.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="214.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="215.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1915,8 +1941,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NSMenuCheckmark">{11, 11}</string>
-			<string key="NSMenuMixedState">{10, 3}</string>
+			<string key="NSMenuCheckmark">{12, 12}</string>
+			<string key="NSMenuMixedState">{10, 2}</string>
 		</dictionary>
 	</data>
 </archive>

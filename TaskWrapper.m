@@ -46,6 +46,10 @@
  1.1/1.2 released to fix a few bugs (not always removing the notification center, forgetting to release in some cases)
  
 1.3	   fixes a code error (no incorrect behavior) where we were checking for if (task) in the -getData: notification when task would always be true. Now we just do the right thing in all cases without the superfluous if check.
+ 
+ 1.4    In MoriartyController.m there is a deprecated call in
+    MoriarityController method - (BOOL)ensureLocateDBExists
+    Replaced it with approved call. Changes tagged with // PHT
  */
 
 

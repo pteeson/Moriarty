@@ -42,8 +42,11 @@
  (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  
- Version History: 1.1/1.2 released to fix a few bugs (not always removing the notification center,
-                                                  forgetting to release in some cases)
+ Version History: 1.1/1.2 released to fix a few bugs (not always removing the notification center, forgetting to release in some cases)
+ 
+ 1.3 In MoriartyController.m there is a deprecated call in
+ MoriarityController method - (BOOL)ensureLocateDBExists
+ Replaced it with approved call. Changes tagged with // PHT
 
  */
 
